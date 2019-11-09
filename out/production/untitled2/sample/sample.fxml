@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+   <children>
+      <TitledPane fx:id="titledPane" animated="false" onMouseClicked="#addToPane" prefHeight="0.0" prefWidth="391.0" text="Images" GridPane.rowIndex="1" />
+      <Button fx:id="button" onAction="#buttonClick" mnemonicParsing="false" text="Button" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+  
+</GridPane>
